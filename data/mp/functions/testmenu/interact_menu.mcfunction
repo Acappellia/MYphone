@@ -12,4 +12,4 @@ execute as @e[distance=..5,type=interaction,tag=mp_menu] store result score @s i
 execute as @e[distance=..5,type=interaction,tag=mp_menu] if score @s interact_time = #current_time mp run tag @s add interact_target
 
 ##determine if the point exists
-execute at @e[distance=..5,type=interaction,tag=interact_target,tag=mp_menu,limit=1] run function mp:testmenu/player_click
+execute at @e[distance=..5,type=interaction,tag=interact_target,tag=mp_menu,limit=1] run function mp:phone/player_click

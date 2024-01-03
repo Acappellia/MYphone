@@ -11,6 +11,6 @@
         }
     },
     "rewards": {
-        "function": "mp:testmenu/interact_menu"
+        "function": "mp:phone/interact_menu"
     }
 }

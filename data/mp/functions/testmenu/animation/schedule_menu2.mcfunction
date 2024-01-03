@@ -1,1 +1,1 @@
-execute as @e[type=interaction,tag=play_animation] at @s run function mp:testmenu/animation/menu2
+execute as @e[type=interaction,tag=play_animation] at @s run function mp:phone/animation/menu2

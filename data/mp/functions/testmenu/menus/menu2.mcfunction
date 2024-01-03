@@ -1,4 +1,4 @@
-execute as @e[distance=..2,tag=menu_icon,type=item_display] at @s run function mp:testmenu/icons/clear_highlight
+execute as @e[distance=..2,tag=menu_icon,type=item_display] at @s run function mp:phone/icons/clear_highlight
 execute as @e[distance=..2,tag=menu_icon,type=item_display] run data merge entity @s {start_interpolation:-1,interpolation_duration:3,transformation:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3]}
 execute positioned ^ ^0.65 ^ run data merge entity @e[type=text_display,tag=menu_bg,distance=..0.2,limit=1] {start_interpolation:-1,interpolation_duration:5,transformation:[4,0,0,0,0,-4,0,0,0,0,-1,0,0,0,0,1],background:1073741824}
 execute positioned ^ ^0.45 ^-0.1 run data merge entity @e[type=text_display,tag=menu_title,distance=..0.2,limit=1] {text:'{"text": "Choose an item to get","color": "#33FF88"}'}
@@ -13,4 +13,4 @@ execute positioned ~ ~-10 ~ run summon item_display ^-0.6 ^ ^-0.1 {Tags:["menu_i
 execute positioned ~ ~-10 ~ as @e[type=item_display,tag=menu_icon,tag=new,distance=..1.5] positioned ~ ~10 ~ positioned ^ ^ ^-1 run data modify entity @s Rotation set from entity @e[distance=..0.2,type=interaction,limit=1,tag=interact_target] Rotation
 
 tag @s add play_animation
-schedule function mp:testmenu/animation/schedule_menu2 2t replace
+schedule function mp:phone/animation/schedule_menu2 2t replace

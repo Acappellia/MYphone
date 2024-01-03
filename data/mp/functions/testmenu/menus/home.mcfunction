@@ -11,4 +11,4 @@ summon item_display ~ ~ ~ {Tags:["menu_icon","icon_2"],billboard:"fixed",transfo
 tp @e[type=item_display,tag=icon_2,distance=..0.2] ^-0.3 ^ ^0.9 ~ ~
 
 tag @s add play_animation
-schedule function mp:testmenu/animation/schedule_home 2t replace
+schedule function mp:phone/animation/schedule_home 2t replace

@@ -9,4 +9,4 @@ execute positioned ~ ~1.6 ~ run data modify entity @e[type=interaction,tag=mp_me
 
 playsound ui.toast.in block @s ~ ~ ~ 1 1.2
 
-execute positioned ~ ~1.61 ~ as @e[type=interaction,tag=mp_menu,distance=..0.2] at @s run function mp:testmenu/menus/home
+execute positioned ~ ~1.61 ~ as @e[type=interaction,tag=mp_menu,distance=..0.2] at @s run function mp:phone/menus/home

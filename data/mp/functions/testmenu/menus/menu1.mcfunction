@@ -1,4 +1,4 @@
-execute as @e[distance=..2,tag=menu_icon,type=item_display] at @s run function mp:testmenu/icons/clear_highlight
+execute as @e[distance=..2,tag=menu_icon,type=item_display] at @s run function mp:phone/icons/clear_highlight
 
 data merge entity @e[distance=..2,tag=icon_3,type=item_display,limit=1] {transformation:[10,0,0,-20,0,10,0,-15,0,0,0,10,0,0,0,100],start_interpolation:-1,interpolation_duration:3}
 data merge entity @e[distance=..2,tag=icon_4,type=item_display,limit=1] {transformation:[10,0,0,-20,0,10,0,20,0,0,0,10,0,0,0,100],start_interpolation:-1,interpolation_duration:3}
@@ -18,4 +18,4 @@ summon item_display ~ ~ ~ {Tags:["menu_icon","icon_2","new"],billboard:"fixed",t
 tp @e[type=item_display,tag=icon_2,distance=..0.2] ^-0.3 ^ ^-0.1 ~ ~
 
 tag @s add play_animation
-schedule function mp:testmenu/animation/schedule_menu1 2t replace
+schedule function mp:phone/animation/schedule_menu1 2t replace

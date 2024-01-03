@@ -1,0 +1,9 @@
+execute if score @s menu_select matches 1 run function mp:testmenu/icons_click/open_menu2
+execute if score @s menu_select matches 2 run function mp:testmenu/icons_click/close_menu
+execute if score @s menu_select matches 3 run function mp:testmenu/icons_click/click_3
+execute if score @s menu_select matches 4 run function mp:testmenu/icons_click/click_4
+execute if score @s menu_select matches 5 run function mp:testmenu/icons_click/click_5
+execute if score @s menu_select matches 6 run function mp:testmenu/icons_click/click_6
+execute if score @s menu_select matches 7 run function mp:testmenu/icons_click/click_7
+execute if score @s menu_select matches 8 run function mp:testmenu/icons_click/click_8
+execute if score @s menu_select matches 9 run function mp:testmenu/icons_click/close_menu2

@@ -1,1 +1,0 @@
-function plg:testmenu/ray

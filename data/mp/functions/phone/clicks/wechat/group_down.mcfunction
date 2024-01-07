@@ -1,3 +1,5 @@
+scoreboard players operation @s p_group_line += #gm_id mp
+scoreboard players operation @s p_group_line -= @s p_group_viewid
 scoreboard players remove @s p_group_line 6
 execute if score @s p_group_line matches ..-1 run scoreboard players set @s p_group_line 0
 kill @e[tag=mp_wechat_group_text,type=#mp:displays,distance=..1]

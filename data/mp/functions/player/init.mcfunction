@@ -21,6 +21,6 @@ setblock 0 -62 0 air
 ##init data
 data modify storage mp:player players append value {}
 data modify storage mp:player players[-1].playerid set from storage mp:player uuid_check[0].playerid
-data modify storage mp:player players[-1].name set from storage mp:player uuid_check[0].name
+data modify storage mp:player players[-1].info.name set from storage mp:player uuid_check[0].name
 data modify storage mp:player players[-1].info.avatar set value "apple"
-function mp:player/inits/storage with storage mp:player uuid_check[0]
+function mp:player/inits/storage

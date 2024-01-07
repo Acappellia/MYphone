@@ -1,1 +1,0 @@
-$data modify entity @s text set from storage mp:player players[$(p_id)].group.input

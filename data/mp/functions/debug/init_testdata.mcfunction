@@ -1,6 +1,6 @@
 data remove storage mp:data group
 
-data modify storage mp:data group.recent_msg set value '[{"text":"                                  \\n"},{"text": "ABraHam_Sid_","color": "#BBBBBB"},{"text": ": ","color": "#BBBBBB"},{"text": "阿米诺斯！","color": "#BBBBBB"}]'
+data modify storage mp:data group.recent_msg set value '[{"text":"                                  \\n"},{"text": "Asakura_kukii","color": "#BBBBBB"},{"text": ": ","color": "#BBBBBB"},{"text": "傻逼","color": "#BBBBBB"}]'
 data modify storage mp:data group.chats prepend value {gm_id:0,player:'[{"text":"                                  \\n"},{"text": "AbraHam_Sid_","color": "#BBBBBB"}]',p_id:1,avatar:"cherry_sapling",msg:'[{"text":"                                  \\n"},{"text": "阿米诺斯！","color": "white"}]'}
 data modify storage mp:data group.chats prepend value {gm_id:1,player:'[{"text":"                                  \\n"},{"text": "AbraHam_Sid_","color": "#BBBBBB"}]',p_id:1,avatar:"cherry_sapling",msg:'[{"text":"                                  \\n"},{"text": "阿米诺斯！！","color": "white"}]'}
 data modify storage mp:data group.chats prepend value {gm_id:2,player:'[{"text":"                                  \\n"},{"text": "AbraHam_Sid_","color": "#BBBBBB"}]',p_id:1,avatar:"cherry_sapling",msg:'[{"text":"                                  \\n"},{"text": "阿米诺斯！！！","color": "white"}]'}
@@ -19,4 +19,4 @@ data modify storage mp:data group.chats prepend value {gm_id:14,player:'[{"text"
 data modify storage mp:data group.chats prepend value {gm_id:15,player:'[{"text":"                                  \\n"},{"text": "Asakura_kukii","color": "#BBBBBB"}]',p_id:2,avatar:"cherry_boat",msg:'[{"text":"                                  \\n"},{"text": "傻逼","color": "white"}]'}
 scoreboard players set #gm_id mp 15
 
-data modify storage mp:player players[0].group.input set value '[{"text":"                                  \\n"},{"text": "阿阿阿阿阿米诺斯！！！","color": "white"}]'
+data modify storage mp:player players[0].group.input set value "阿阿阿阿阿米诺斯！！！"

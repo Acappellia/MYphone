@@ -1,0 +1,2 @@
+data merge entity @s {item:{id:"fire_coral",Count:1b},Tags:["mp_wechat_home","mp_wechat","mp_app_element","mp_static","mp_display"],transformation:[15,0,0,0,0,15,0,0,0,0,1,-5,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
+tp @s ^0.135 ^20.215 ^0.5 ~ ~

@@ -1,0 +1,1 @@
+tellraw @s [{"text": "> 请在聊天框输入信息","color": "gray"}]

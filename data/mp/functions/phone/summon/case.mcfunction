@@ -1,0 +1,2 @@
+data merge entity @s {item:{id:"black_concrete",Count:1b},Tags:["mp_case","mp_display"],transformation:[110,0,0,0,0,210,0,0,0,0,5,5,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061}
+tp @s ^ ^20 ^0.5 ~ ~

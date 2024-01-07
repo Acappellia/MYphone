@@ -13,12 +13,14 @@ execute if score #search_result mp matches 2 run return 1
 data modify storage mp:player uuid_check prepend value {}
 data modify storage mp:player uuid_check[0].UUID set from storage mp:tmp search.target_UUID
 execute store result score @s p_id store result storage mp:player uuid_check[0].playerid int 1 run scoreboard players add #player_id mp 1
-setblock 0 2 0 shulker_box{Items:[{Slot:0b,id:"player_head",Count:1b}]}
-item modify block 0 2 0 container.0 mp:set_skull
-data modify storage mp:player uuid_check[0].name set from block 0 2 0 Items[0].tag.SkullOwner.Name
-setblock 0 2 0 air
+setblock 0 -62 0 shulker_box{Items:[{Slot:0b,id:"player_head",Count:1b}]}
+item modify block 0 -62 0 container.0 mp:set_skull
+data modify storage mp:player uuid_check[0].name set from block 0 -62 0 Items[0].tag.SkullOwner.Name
+setblock 0 -62 0 air
 
 ##init data
 data modify storage mp:player players append value {}
 data modify storage mp:player players[-1].playerid set from storage mp:player uuid_check[0].playerid
-function mp:player/inits/storage
+data modify storage mp:player players[-1].name set from storage mp:player uuid_check[0].name
+data modify storage mp:player players[-1].info.avatar set value "apple"
+function mp:player/inits/storage with storage mp:player uuid_check[0]

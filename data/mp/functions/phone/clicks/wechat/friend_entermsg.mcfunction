@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^0.5 as @e[distance=..1.5,limit=1,tag=mp_wfriend_intext,type=text_display] run function mp:phone/animation/update_finput with storage mp:tmp p_info
+$tellraw @s [{"text": "> 点击此处输入内容，点击聊天框更新内容。","color": "gray","clickEvent": {"action": "suggest_command","value": "/data modify storage mp:player players[$(p_id)].friends[$(friend_index)].input set value \"在此处输入聊天消息\""}}]

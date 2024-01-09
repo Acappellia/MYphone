@@ -13,3 +13,7 @@ function mp:phone/clicks/wechat/group_send_2 with storage mp:tmp p_info
 #TODO
 
 function mp:phone/clicks/wechat/group_bottom
+
+tag @s add sending
+execute as @a[scores={p_active_app=101,p_ani_cd=0..,p_group_line=0},tag=!sending] unless score @s p_group_viewid = #gm_id mp at @s anchored eyes at @e[distance=..0.1,sort=nearest,type=interaction,tag=mp_menu] run function mp:phone/clicks/wechat/gupdate_others
+tag @s remove sending

@@ -1,0 +1,3 @@
+$data modify storage mp:player players[$(friend_id)].friends[$(target_index)].chats prepend value {}
+$data modify storage mp:player players[$(friend_id)].friends[$(target_index)].chats[0].msg set value '[{"text":"                                          \\n"},{"text": "$(input_text)","color": "white"}]'
+$data modify storage mp:player players[$(friend_id)].friends[$(target_index)].recent_msg set value '[{"text":"                                          \\n"},{"text": "$(input_text_short)","color": "#BBBBBB"}]'

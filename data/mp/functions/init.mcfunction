@@ -34,10 +34,14 @@ scoreboard objectives add p_ani_cd custom:time_since_death
 scoreboard objectives add p_group_line dummy
 scoreboard objectives add p_group_viewid dummy
 scoreboard objectives add p_active_app dummy
+scoreboard objectives add p_friend_id dummy
+scoreboard objectives add p_friend_index dummy
+scoreboard objectives add p_pm_line dummy
 
 scoreboard objectives add m_interact_time dummy
 scoreboard objectives add m_ani_type dummy
 scoreboard objectives add m_app dummy
+scoreboard objectives add m_friend_index dummy
 
 function mp:time/add_min
 function mp:slow_tick

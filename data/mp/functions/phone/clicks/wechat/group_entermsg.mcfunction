@@ -1,1 +1,2 @@
-tellraw @s [{"text": "> 请在聊天框输入信息","color": "gray"}]
+execute positioned ^ ^ ^0.5 as @e[distance=..1.5,limit=1,tag=mp_wgroup_intext,type=text_display] run function mp:phone/animation/update_ginput with storage mp:tmp p_info
+$tellraw @s [{"text": "> 点击此处输入内容，点击聊天框更新内容。","color": "gray","clickEvent": {"action": "suggest_command","value": "/data modify storage mp:player players[$(p_id)].group.input set value \"在此处输入聊天消息\""}}]

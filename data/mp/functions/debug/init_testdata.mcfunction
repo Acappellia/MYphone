@@ -54,3 +54,5 @@ data modify storage mp:player players[0].friends[-1].chats prepend value {msg:'[
 data modify storage mp:player players[0].friends append value {p_id:4,target_index:0,player:"Aqua_CX",avatar:"carrot"}
 
 data modify storage mp:player players[0].friends append value {p_id:5,target_index:0,player:"Aqua_bz",avatar:"potato"}
+
+data modify storage mp:player players[0].friend_list set value [1,2,3,4,5]

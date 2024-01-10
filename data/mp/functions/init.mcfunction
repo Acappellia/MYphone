@@ -37,6 +37,7 @@ scoreboard objectives add p_active_app dummy
 scoreboard objectives add p_friend_id dummy
 scoreboard objectives add p_friend_index dummy
 scoreboard objectives add p_pm_line dummy
+scoreboard objectives add p_af_id dummy
 
 scoreboard objectives add m_interact_time dummy
 scoreboard objectives add m_ani_type dummy

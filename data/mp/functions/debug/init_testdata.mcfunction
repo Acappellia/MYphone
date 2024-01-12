@@ -55,7 +55,7 @@ data modify storage mp:player players[0].friends append value {p_id:4,target_ind
 data modify storage mp:player players[0].friends[-1].zfb_recent_msg set value '[{"text":"                                          \\n"},{"text": "向TA转账 ¥ 648.00","color": "#444444"}]'
 data modify storage mp:player players[0].friends[-1].zfb_history prepend value {self:1,amount:168}
 data modify storage mp:player players[0].friends[-1].zfb_history prepend value {amount:6}
-data modify storage mp:player players[0].friends[-1].zfb_history prepend value {amount:30}
+data modify storage mp:player players[0].friends[-1].zfb_history prepend value {amount:50}
 data modify storage mp:player players[0].friends[-1].zfb_history prepend value {self:1,amount:648}
 
 

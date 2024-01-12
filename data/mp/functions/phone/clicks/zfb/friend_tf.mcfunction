@@ -4,7 +4,7 @@ execute if score @s p_tf_limit matches 20001.. run tellraw @s [{"text": "> æ‚¨çš
 execute if score @s p_tf_limit matches 20001.. run return -1
 
 execute if score @s p_select matches 231 run scoreboard players set #tf_amount mp 6
-execute if score @s p_select matches 232 run scoreboard players set #tf_amount mp 30
+execute if score @s p_select matches 232 run scoreboard players set #tf_amount mp 50
 execute if score @s p_select matches 233 run scoreboard players set #tf_amount mp 98
 execute if score @s p_select matches 234 run scoreboard players set #tf_amount mp 168
 execute if score @s p_select matches 235 run scoreboard players set #tf_amount mp 328

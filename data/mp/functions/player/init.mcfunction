@@ -24,3 +24,6 @@ data modify storage mp:player players[-1].playerid set from storage mp:player uu
 data modify storage mp:player players[-1].info.name set from storage mp:player uuid_check[0].name
 data modify storage mp:player players[-1].info.avatar set value "apple"
 function mp:player/inits/storage
+
+##init scores
+scoreboard players set @s p_money 0

@@ -28,6 +28,12 @@ execute unless score #gm_id mp matches 0.. run scoreboard players set #gm_id mp 
 function mp:time/init
 
 scoreboard objectives add p_id dummy
+
+##scoreboards to recover
+scoreboard objectives add p_money dummy
+scoreboard objectives add p_tf_limit dummy
+
+##tmp scoreboard
 scoreboard objectives add p_open used:carrot_on_a_stick
 scoreboard objectives add p_select dummy
 scoreboard objectives add p_ani_cd custom:time_since_death

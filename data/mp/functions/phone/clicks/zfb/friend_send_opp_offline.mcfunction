@@ -1,0 +1,1 @@
+$data modify storage mp:player players[$(friend_id)].friends[$(target_index)].zfb_new_msg set value 1

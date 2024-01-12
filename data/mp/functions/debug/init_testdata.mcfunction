@@ -51,7 +51,13 @@ data modify storage mp:player players[0].friends append value {p_id:3,target_ind
 data modify storage mp:player players[0].friends[-1].recent_msg set value '[{"text":"                                          \\n"},{"text": "在不 借个steam号","color": "#BBBBBB"}]'
 data modify storage mp:player players[0].friends[-1].chats prepend value {msg:'[{"text":"                                          \\n"},{"text": "在不 借个steam号","color": "white"}]'}
 
-data modify storage mp:player players[0].friends append value {p_id:4,target_index:0,player:"Aqua_CX",avatar:"carrot"}
+data modify storage mp:player players[0].friends append value {p_id:4,target_index:0,player:"Aqua_CX",avatar:"carrot",zfb_new_msg:1}
+data modify storage mp:player players[0].friends[-1].zfb_recent_msg set value '[{"text":"                                          \\n"},{"text": "向TA转账 ¥ 648.00","color": "#444444"}]'
+data modify storage mp:player players[0].friends[-1].zfb_history prepend value {self:1,amount:168}
+data modify storage mp:player players[0].friends[-1].zfb_history prepend value {amount:6}
+data modify storage mp:player players[0].friends[-1].zfb_history prepend value {amount:30}
+data modify storage mp:player players[0].friends[-1].zfb_history prepend value {self:1,amount:648}
+
 
 data modify storage mp:player players[0].friends append value {p_id:5,target_index:0,player:"Aqua_bz",avatar:"potato"}
 

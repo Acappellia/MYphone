@@ -1,0 +1,1 @@
+kill @e[tag=mp_zfb_home,type=#mp:displays,distance=..1]

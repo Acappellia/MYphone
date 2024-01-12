@@ -13,4 +13,4 @@ execute if score @s p_select matches 116..120 run function mp:phone/clicks/wecha
 
 execute if score @s p_select matches 121 run function mp:phone/clicks/wechat/enter_add_friends
 execute if score @s p_select matches 122 run function mp:phone/clicks/wechat/af_send_request
-execute if score @s p_select matches 122 run function mp:phone/clicks/wechat/af_confirm_request
+execute if score @s p_select matches 123 run function mp:phone/clicks/wechat/af_confirm_request

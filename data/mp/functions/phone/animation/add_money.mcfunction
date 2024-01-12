@@ -1,0 +1,1 @@
+$data modify entity @s text set value '[{"text":"                                          \\n"},{"text": "¥ $(input_text).00","color": "black"}]'

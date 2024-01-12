@@ -1,0 +1,2 @@
+data merge entity @s {text:'[{"score":{"name": "#zfb_money","objective": "mp"},"color": "white"},{"text": ".00"}]',Tags:["mp_zfb_home","mp_zfb","mp_app_element","mp_static","mp_display"],transformation:[-45,0,0,0,0,45,0,0,0,0,-45,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
+tp @s ^ ^20.2 ^0.5 ~ ~

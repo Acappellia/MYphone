@@ -27,3 +27,5 @@ function mp:player/inits/storage
 
 ##init scores
 scoreboard players set @s p_money 0
+scoreboard players set @s p_bg_type 0
+scoreboard players set @s p_tf_limit 0

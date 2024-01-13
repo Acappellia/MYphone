@@ -32,6 +32,7 @@ scoreboard objectives add p_id dummy
 ##scoreboards to recover
 scoreboard objectives add p_money dummy
 scoreboard objectives add p_tf_limit dummy
+scoreboard objectives add p_bg_type dummy
 
 ##tmp scoreboard
 scoreboard objectives add p_open used:carrot_on_a_stick
@@ -49,6 +50,9 @@ scoreboard objectives add m_interact_time dummy
 scoreboard objectives add m_ani_type dummy
 scoreboard objectives add m_app dummy
 scoreboard objectives add m_friend_index dummy
+
+##init data
+data modify storage mp:data bg_type set value ["cyan_concrete","green_concrete","red_concrete","purple_concrete","lime_concrete","yellow_concrete","brown_concrete","pink_concrete","black_concrete"]
 
 function mp:time/add_min
 function mp:slow_tick

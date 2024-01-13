@@ -1,0 +1,2 @@
+data merge entity @s {item:{id:"glow_item_frame",Count:1b},Tags:["mp_setting_home","mp_setting","mp_app_element","mp_static","mp_display"],transformation:[15,0,0,0,0,15,0,0,0,0,1,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
+tp @s ^0.135 ^20.218 ^0.5 ~ ~

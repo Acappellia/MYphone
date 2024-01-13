@@ -1,0 +1,1 @@
+kill @e[tag=mp_setting_home,type=#mp:displays,distance=..1]

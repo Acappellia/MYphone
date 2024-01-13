@@ -1,0 +1,1 @@
+$execute summon item_display run function mp:phone/summon/setting/bg/$(p_bg_type)_select

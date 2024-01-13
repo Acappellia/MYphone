@@ -9,6 +9,9 @@ summon interaction ~ ~1.6 ~ {Tags:["mp_menu"],width:0.04f,height:0.04f}
 execute positioned ~ ~1.6 ~ run data modify entity @e[type=interaction,tag=mp_menu,distance=..0.2,limit=1] Rotation set from entity @s Rotation
 
 playsound ui.toast.in block @s ~ ~ ~ 1 1.2
+data remove storage mp:tmp p_info
+#execute store result storage mp:tmp p_info.p_id int 1 run scoreboard players get @s p_id
+execute store result storage mp:tmp p_info.p_bg_type int 1 run scoreboard players get @s p_bg_type
 
 execute positioned ~ ~1.61 ~ at @e[type=interaction,tag=mp_menu,distance=..0.2] positioned ^ ^-20 ^ run function mp:phone/menus/frame
 scoreboard players set @s p_ani_cd -8

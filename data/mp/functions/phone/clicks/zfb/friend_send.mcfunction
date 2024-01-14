@@ -12,5 +12,6 @@ function mp:phone/clicks/zfb/friend_send_opp with storage mp:tmp p_info
 
 #define score_holder #friend_msg_success
 data modify storage mp:tmp p_info_cp set from storage mp:tmp p_info
-$execute store success score #friend_msg_success mp as @a[scores={p_active_app=201,p_id=$(friend_id),p_friend_id=$(p_id)}] at @s anchored eyes positioned ^ ^ ^ at @e[distance=..0.1,sort=nearest,type=interaction,tag=mp_menu] run function mp:phone/clicks/zfb/fupdate_others
+scoreboard players reset #friend_msg_success mp
+$execute as @a[scores={p_active_app=201,p_id=$(friend_id),p_friend_id=$(p_id)}] at @s anchored eyes positioned ^ ^ ^ at @e[distance=..0.1,sort=nearest,type=interaction,tag=mp_menu] run function mp:phone/clicks/zfb/fupdate_others
 execute unless score #friend_msg_success mp matches 1.. run function mp:phone/clicks/zfb/friend_send_opp_offline with storage mp:tmp p_info_cp

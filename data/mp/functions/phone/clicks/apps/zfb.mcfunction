@@ -1,5 +1,10 @@
 playsound ui.toast.in block @s ~ ~ ~ 1 1.2
 
+#define score_holder #tf_receive
+$execute store result score #tf_receive mp run data get storage mp:player players[$(p_id)].zfb_income
+$data remove storage mp:player players[$(p_id)].zfb_income
+scoreboard players operation @s p_money += #tf_receive mp
+
 scoreboard players set @s p_friend_index 0
 scoreboard players operation #zfb_money mp = @s p_money
 

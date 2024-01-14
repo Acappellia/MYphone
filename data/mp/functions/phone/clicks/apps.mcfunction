@@ -1,5 +1,5 @@
 execute if score @s p_select matches 1 run function mp:phone/clicks/apps/text
-execute if score @s p_select matches 2 run function mp:phone/clicks/apps/zfb
+execute if score @s p_select matches 2 run function mp:phone/clicks/apps/zfb with storage mp:tmp p_info
 execute if score @s p_select matches 3 run function mp:phone/clicks/apps/tujian
 execute if score @s p_select matches 4 run function mp:phone/clicks/apps/setting
 execute if score @s p_select matches 5 run function mp:phone/clicks/apps/map

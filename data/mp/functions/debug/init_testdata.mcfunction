@@ -62,3 +62,9 @@ data modify storage mp:player players[0].friends[-1].zfb_history prepend value {
 data modify storage mp:player players[0].friends append value {p_id:5,target_index:0,player:"Aqua_bz",avatar:"pufferfish"}
 
 data modify storage mp:player players[0].friend_list set value [1,2,3,4,5]
+
+data remove storage mp:player players[0].text_msgs
+data modify storage mp:player players[0].text_msgs prepend value {sender:'[{"text":"                                          \\n"},{"text": "12571276102761","color": "#444444"}]',msg:'[{"text":"                                          \\n"},{"text": "【完美世界】登陆平台验证码：114514，有效期5分钟","color": "black"}]'}
+data modify storage mp:player players[0].text_msgs prepend value {sender:'[{"text":"                                          \\n"},{"text": "25616127061782","color": "#444444"}]',msg:'[{"text":"                                          \\n"},{"text": "【京东金融】（还款提醒）您本期白条账单将于1月14日自动扣款233.33元。查账1.cn/23112352","color": "black"}]'}
+data modify storage mp:player players[0].text_msgs prepend value {location:[123,456],sender:'[{"text":"                                          \\n"},{"text": "051210001","color": "#444444"}]',msg:'[{"text":"                                          \\n"},{"text": "隐蔽战线神秘、神奇、神圣，国家安全机关人民警察亮剑于无形，护家国安宁。庆祝第四个人民警察节，请关注“国家安全部”微信公众号。江苏省国家安全厅","color": "black"}]'}
+data modify storage mp:player players[0].text_msgs prepend value {sender:'[{"text":"                                          \\n"},{"text": "23486723046720","color": "#444444"}]',msg:'[{"text":"                                          \\n"},{"text": "【盒马】25颗草莓蛋糕特价59元，戳领8元券后51元只卖一天！hm.tb.cn/150109299 TEL9510217 拒收请回复R","color": "black"}]'}

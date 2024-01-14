@@ -11,3 +11,4 @@ execute as @e[distance=..5,type=interaction,tag=mp_menu] if score @s m_interact_
 
 ##determine if the point exists
 execute at @e[distance=..5,type=interaction,tag=interact_target,tag=mp_menu,limit=1] run function mp:phone/player_click
+tag @e[distance=..5,type=interaction,tag=mp_menu] remove interact_target

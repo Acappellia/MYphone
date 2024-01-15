@@ -2,6 +2,9 @@ scoreboard players reset @s p_open
 scoreboard players reset @s p_ani_cd
 scoreboard players reset @s p_select
 
+execute if entity @p[distance=0.1..1.5] run title @s actionbar "请离其他玩家远一些再丸手机"
+execute if entity @p[distance=0.1..1.5] run return -1
+
 ride @s dismount
 summon item_display ~ ~0.6 ~ {Tags:["menu_base"]}
 execute positioned ~ ~0.6 ~ run ride @s mount @e[type=item_display,tag=menu_base,distance=..0.2,limit=1]

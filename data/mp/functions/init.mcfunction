@@ -33,6 +33,13 @@ scoreboard objectives add p_id dummy
 scoreboard objectives add p_money dummy
 scoreboard objectives add p_tf_limit dummy
 scoreboard objectives add p_bg_type dummy
+scoreboard objectives add p_music_sl_0 dummy
+scoreboard objectives add p_music_sl_1 dummy
+scoreboard objectives add p_music_sl_2 dummy
+scoreboard objectives add p_music_sl_3 dummy
+scoreboard objectives add p_music_sl_4 dummy
+scoreboard objectives add p_music_sl_5 dummy
+scoreboard objectives add p_music_sl_6 dummy
 
 ##tmp scoreboard
 scoreboard objectives add p_open used:carrot_on_a_stick
@@ -45,15 +52,8 @@ scoreboard objectives add p_friend_id dummy
 scoreboard objectives add p_friend_index dummy
 scoreboard objectives add p_pm_line dummy
 scoreboard objectives add p_af_id dummy
-
-scoreboard objectives add p_music_sl_0 dummy
-scoreboard objectives add p_music_sl_1 dummy
-scoreboard objectives add p_music_sl_2 dummy
-scoreboard objectives add p_music_sl_3 dummy
-scoreboard objectives add p_music_sl_4 dummy
-scoreboard objectives add p_music_sl_5 dummy
-scoreboard objectives add p_music_sl_6 dummy
 scoreboard objectives add p_music_playing dummy
+scoreboard objectives add p_music_cd custom:time_since_death
 
 scoreboard objectives add m_interact_time dummy
 scoreboard objectives add m_ani_type dummy
@@ -62,6 +62,7 @@ scoreboard objectives add m_friend_index dummy
 
 ##init data
 data modify storage mp:data bg_type set value ["cyan_concrete","green_concrete","red_concrete","purple_concrete","lime_concrete","yellow_concrete","brown_concrete","pink_concrete","black_concrete"]
+function mp:init/bgm
 
 function mp:time/add_min
 function mp:slow_tick

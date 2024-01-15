@@ -1,3 +1,3 @@
-data merge entity @s {item:{id:"pufferfish",Count:1b},Tags:["mp_music","mp_app_element","mp_static","mp_display"],transformation:[12,0,0,0,0,12,0,0,0,0,1,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
-$execute if score @s p_music_playing matches 1.. run data modify entity @s item.id set from storage mp:player players[$(p_id)].music.playing.icon
+data merge entity @s {item:{id:"pufferfish",Count:1b},Tags:["mp_music_info","mp_music","mp_app_element","mp_static","mp_display"],transformation:[12,0,0,0,0,12,0,0,0,0,1,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
+$execute if score #music_playing mp matches 1.. run data modify entity @s item.id set from storage mp:player players[$(p_id)].music.playing.icon
 tp @s ^0.145 ^19.72 ^0.5 ~ ~

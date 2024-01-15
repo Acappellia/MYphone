@@ -1,1 +1,1 @@
-$data modify storage mp:player players[$(p_id)].friends[$(friend_index)].zfb_recent_msg set value '[{"text":"                                          \\n"},{"text": "向TA转账 ¥ $(tf_money).00","color": "#444444"}]'
+$data modify storage mp:player players[$(p_id)].friends[$(friend_index)].zfb_recent_msg set value "向TA转账 ¥ $(tf_money).00"

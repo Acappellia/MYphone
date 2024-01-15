@@ -9,5 +9,6 @@ execute if score @s p_select matches 101..200 run function mp:phone/clicks/wecha
 execute if score @s p_select matches 201..300 run function mp:phone/clicks/zfb
 execute if score @s p_select matches 301..400 run function mp:phone/clicks/setting
 execute if score @s p_select matches 401..500 run function mp:phone/clicks/text
+execute if score @s p_select matches 501..600 run function mp:phone/clicks/music
 
 scoreboard players reset @s p_select

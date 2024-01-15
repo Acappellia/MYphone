@@ -1,11 +1,10 @@
+$execute unless data storage mp:player players[$(p_id)].friends[$(friend_index)].input run return -1
 $data modify storage mp:player players[$(p_id)].friends[$(friend_index)].chats prepend value {self:1}
 
-$data modify storage mp:tmp p_info.input_text set from storage mp:player players[$(p_id)].friends[$(friend_index)].input
-data modify storage mp:tmp p_info.input_text set string storage mp:tmp p_info.input_text 0 36
-data modify storage mp:tmp p_info.input_text_short set from storage mp:tmp p_info.input_text
-data modify storage mp:tmp p_info.input_text_short set string storage mp:tmp p_info.input_text_short 0 18
-
-function mp:phone/clicks/wechat/friend_send_2 with storage mp:tmp p_info
+$data modify storage mp:player players[$(p_id)].friends[$(friend_index)].chats[0].msg set from storage mp:player players[$(p_id)].friends[$(friend_index)].input
+$data modify storage mp:player players[$(p_id)].friends[$(friend_index)].chats[0].msg set string storage mp:player players[$(p_id)].friends[$(friend_index)].chats[0].msg 0 36
+$data modify storage mp:player players[$(p_id)].friends[$(friend_index)].recent_msg set from storage mp:player players[$(p_id)].friends[$(friend_index)].input
+$data modify storage mp:player players[$(p_id)].friends[$(friend_index)].recent_msg set string storage mp:player players[$(p_id)].friends[$(friend_index)].recent_msg 0 18
 
 #$data remove storage mp:player players[$(p_id)].friends[$(friend_index)].input
 #TODO

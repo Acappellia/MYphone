@@ -1,0 +1,3 @@
+data merge entity @s {text:'[{"text":"                                          \\n"},{"text": "未播放歌曲","color": "white"}]',Tags:["mp_music","mp_app_element","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-3,0,0,0,250],alignment:"left",billboard:"fixed",view_range:0.015f,background:0}
+$execute if score @s p_music_playing matches 1.. run data modify entity @s text set value '[{"text":"                                          \\n"},{"nbt":"players[$(p_id)].music.playing.name","storage": "mp:player","color": "white"}]'
+tp @s ^-0.055 ^19.705 ^0.5 ~ ~

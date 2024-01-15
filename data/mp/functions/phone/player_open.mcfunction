@@ -6,7 +6,7 @@ execute if entity @p[distance=0.1..2] run title @s actionbar "请离其他玩家
 execute if entity @p[distance=0.1..2] run return -1
 
 ride @s dismount
-summon item_display ~ ~0.6 ~ {Tags:["menu_base"]}
+summon item_display ~ ~0.6 ~ {Tags:["menu_base"],item:{id:"minecraft:scaffolding",Count:1b},transformation:[60,0,0,0,0,300,0,-150,0,0,60,0,0,0,0,100]}
 execute positioned ~ ~0.6 ~ run ride @s mount @e[type=item_display,tag=menu_base,distance=..0.2,limit=1]
 summon interaction ~ ~1.6 ~ {Tags:["mp_menu"],width:0.04f,height:0.04f,Rotation:[0.0f,20.0f]}
 execute positioned ~ ~1.6 ~ run data modify entity @e[type=interaction,tag=mp_menu,distance=..0.2,limit=1] Rotation[0] set from entity @s Rotation[0]

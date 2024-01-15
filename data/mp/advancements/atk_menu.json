@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "interact_pot":{
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"mp_menu\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mp:phone/atk_menu"
+    }
+}

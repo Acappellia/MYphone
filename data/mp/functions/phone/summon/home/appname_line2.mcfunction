@@ -1,2 +1,2 @@
-data merge entity @s {text:'[{"text": "闲鱼    紧急救援   云音乐     原神","color": "white"}]',Tags:["mp_appline","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
+data merge entity @s {text:'[{"text": "闲鱼    紧急救援   云音乐     原神","color": "white"}]',Tags:["mp_appline","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-4,0,0,0,250],billboard:"fixed",view_range:0.01f,glow_color_override:5066061,background:0}
 tp @s ^ ^20.05 ^0.5 ~ ~

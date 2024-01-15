@@ -1,2 +1,2 @@
-data merge entity @s {text:'[{"text":"                                          \\n"},{"nbt":"current_msg.sender","storage": "mp:tmp","color": "$444444"}]',Tags:["mp_text_home_msg","mp_text_home","mp_text","mp_app_element","mp_static","mp_display"],transformation:[-30,0,0,0,0,30,0,0,0,0,-30,-3,0,0,0,250],alignment:"left",billboard:"fixed",view_range:0.015f,background:0}
+data merge entity @s {text:'[{"text":"                                          \\n"},{"nbt":"current_msg.sender","storage": "mp:tmp","color": "$444444"}]',Tags:["mp_text_home_msg","mp_text_home","mp_text","mp_app_element","mp_static","mp_display"],transformation:[-30,0,0,0,0,30,0,0,0,0,-30,-3,0,0,0,250],alignment:"left",billboard:"fixed",view_range:0.01f,background:0}
 tp @s ^-0.088 ^20.21 ^0.5 ~ ~

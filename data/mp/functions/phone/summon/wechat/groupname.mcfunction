@@ -1,2 +1,2 @@
-data merge entity @s {text:'[{"text": "[NyaaCat] 毛玉线圈物语 #1","color": "white"}]',Tags:["mp_wechat_home","mp_wechat","mp_app_element","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-3,0,0,0,250],billboard:"fixed",view_range:0.015f,background:0}
+data merge entity @s {text:'[{"text": "[NyaaCat] 毛玉线圈物语 #1","color": "white"}]',Tags:["mp_wechat_home","mp_wechat","mp_app_element","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-3,0,0,0,250],billboard:"fixed",view_range:0.01f,background:0}
 tp @s ^-0.03 ^20.22 ^0.5 ~ ~

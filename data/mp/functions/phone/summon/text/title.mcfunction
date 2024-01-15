@@ -1,2 +1,2 @@
-data merge entity @s {text:'[{"text": "短信","color": "white"}]',Tags:["mp_text_home","mp_text","mp_app_element","mp_static","mp_display"],transformation:[-50,0,0,0,0,50,0,0,0,0,-50,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,glow_color_override:5066061,background:0}
+data merge entity @s {text:'[{"text": "短信","color": "white"}]',Tags:["mp_text_home","mp_text","mp_app_element","mp_static","mp_display"],transformation:[-50,0,0,0,0,50,0,0,0,0,-50,-4,0,0,0,250],billboard:"fixed",view_range:0.01f,glow_color_override:5066061,background:0}
 tp @s ^0.13 ^20.28 ^0.5 ~ ~

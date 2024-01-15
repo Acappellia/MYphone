@@ -1,2 +1,2 @@
-data merge entity @s {text:'[{"text": "¥ 328","color": "black"}]',Tags:["mp_zfb_friend","mp_zfb","mp_app_element","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-4,0,0,0,250],billboard:"fixed",view_range:0.015f,background:0,alignment:"left",line_width:170}
+data merge entity @s {text:'[{"text": "¥ 328","color": "black"}]',Tags:["mp_zfb_friend","mp_zfb","mp_app_element","mp_static","mp_display"],transformation:[-20,0,0,0,0,20,0,0,0,0,-20,-4,0,0,0,250],billboard:"fixed",view_range:0.01f,background:0,alignment:"left",line_width:170}
 tp @s ^ ^19.71 ^0.5 ~ ~

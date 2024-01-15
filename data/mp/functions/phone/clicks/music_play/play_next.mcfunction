@@ -1,5 +1,6 @@
 $execute store result score @s p_music_cd run data get storage mp:data bgm[$(bgm_next)].length
 $data modify storage mp:tmp p_info.bgm_nextname set from storage mp:data bgm[$(bgm_next)].sound
+stopsound @s record
 function mp:phone/clicks/music_play/play_next_2 with storage mp:tmp p_info
 
 $data modify storage mp:player players[$(p_id)].music.playing.icon set from storage mp:data bgm[$(bgm_next)].icon
